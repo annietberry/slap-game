@@ -48,15 +48,16 @@ function hideHealth(){
   return
   }
   document.getElementById("dead").style.display= 'none'; 
+  
 }
 
+//fix so it works on vold death
 function playAgain(){
   health=100
   hits=0
   draw()
 }
 
-//hide playAgain
 
 
 
